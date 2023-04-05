@@ -84,11 +84,6 @@ _G.packer_plugins = {
     path = "/home/gabriellira/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
-  ["jupyter_ascending.vim"] = {
-    loaded = true,
-    path = "/home/gabriellira/.local/share/nvim/site/pack/packer/start/jupyter_ascending.vim",
-    url = "https://github.com/untitled-ai/jupyter_ascending.vim"
-  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/gabriellira/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -99,6 +94,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gabriellira/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
+  },
+  ["nvim-ipy"] = {
+    loaded = true,
+    path = "/home/gabriellira/.local/share/nvim/site/pack/packer/start/nvim-ipy",
+    url = "https://github.com/bfredl/nvim-ipy"
   },
   ["nvim-web-devicons"] = {
     loaded = false,
@@ -130,6 +130,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gabriellira/.local/share/nvim/site/pack/packer/start/vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
+  },
+  ["vim-slime"] = {
+    loaded = true,
+    path = "/home/gabriellira/.local/share/nvim/site/pack/packer/start/vim-slime",
+    url = "https://github.com/jpalardy/vim-slime"
   }
 }
 
