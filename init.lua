@@ -8,5 +8,7 @@ require('lualine').setup {
   },
 }
 
+vim.fn.setenv('PYTHON3_HOST_PROG', '~/anaconda3/bin/python')
+
 vim.wo.number = true
 vim.wo.relativenumber = true

@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/gabriellira/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
+  ["jupyter_ascending.vim"] = {
+    loaded = true,
+    path = "/home/gabriellira/.local/share/nvim/site/pack/packer/start/jupyter_ascending.vim",
+    url = "https://github.com/untitled-ai/jupyter_ascending.vim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/gabriellira/.local/share/nvim/site/pack/packer/start/lualine.nvim",

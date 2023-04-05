@@ -15,6 +15,8 @@ return require('packer').startup(function(use)
 
 	use('tpope/vim-commentary')
 
+	use('untitled-ai/jupyter_ascending.vim') 
+	
 	use {
 		"windwp/nvim-autopairs",
 		config = function() require("nvim-autopairs").setup {} end
