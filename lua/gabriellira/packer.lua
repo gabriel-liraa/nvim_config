@@ -5,9 +5,7 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
 	-- Packer can manage itself
 
-	use 'wbthomason/packer.nvim'
-
-	use 'Mofiqul/dracula.nvim'
+	use ('wbthomason/packer.nvim')
 
 	use('ThePrimeagen/harpoon')
 
@@ -17,7 +15,9 @@ return require('packer').startup(function(use)
 
 	use('jpalardy/vim-slime')
 
-	use('bfredl/nvim-ipy')
+	use('christoomey/vim-tmux-navigator')
+
+	use('dense-analysis/ale')
 
 	use {
 		"windwp/nvim-autopairs",

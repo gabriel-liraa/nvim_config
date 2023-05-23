@@ -74,10 +74,10 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["dracula.nvim"] = {
+  ale = {
     loaded = true,
-    path = "/home/gabriellira/.local/share/nvim/site/pack/packer/start/dracula.nvim",
-    url = "https://github.com/Mofiqul/dracula.nvim"
+    path = "/home/gabriellira/.local/share/nvim/site/pack/packer/start/ale",
+    url = "https://github.com/dense-analysis/ale"
   },
   harpoon = {
     loaded = true,
@@ -94,11 +94,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gabriellira/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
-  },
-  ["nvim-ipy"] = {
-    loaded = true,
-    path = "/home/gabriellira/.local/share/nvim/site/pack/packer/start/nvim-ipy",
-    url = "https://github.com/bfredl/nvim-ipy"
   },
   ["nvim-web-devicons"] = {
     loaded = false,
@@ -135,6 +130,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gabriellira/.local/share/nvim/site/pack/packer/start/vim-slime",
     url = "https://github.com/jpalardy/vim-slime"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/home/gabriellira/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
   }
 }
 
