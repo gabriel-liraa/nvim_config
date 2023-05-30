@@ -7,7 +7,7 @@ return require('packer').startup(function(use)
 
     -- plugin manager
 
-	use ('wbthomason/packer.nvim')
+	use('wbthomason/packer.nvim')
 
     -- navigation
 
@@ -27,7 +27,7 @@ return require('packer').startup(function(use)
 
 	use('tpope/vim-commentary')
 
-    use( 'alvan/vim-closetag' )
+    use('alvan/vim-closetag')
 
     use {
         "windwp/nvim-autopairs",
@@ -79,5 +79,9 @@ return require('packer').startup(function(use)
      use("neovim/nvim-lspconfig") 
      use("hrsh7th/cmp-nvim-lsp") 
      use("onsails/lspkind.nvim")
+
+     -- theme
+     
+     use('sainnhe/gruvbox-material')
 
 end)
