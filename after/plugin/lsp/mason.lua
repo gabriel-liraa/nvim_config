@@ -18,6 +18,6 @@ mason_lspconfig.setup({
     "html",
     "cssls",
     "clangd",
-    "emmet",
+    "emmet_ls",
   }
 })
