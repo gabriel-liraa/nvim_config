@@ -23,6 +23,8 @@ return require('packer').startup(function(use)
 
     -- utilities
 
+    use('akinsho/toggleterm.nvim')
+
 	use('mbbill/undotree')
 
 	use('tpope/vim-commentary')
@@ -52,6 +54,7 @@ return require('packer').startup(function(use)
     -- colors
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+    use('norcalli/nvim-colorizer.lua')
 
     -- -- autocompletion
 
@@ -82,6 +85,17 @@ return require('packer').startup(function(use)
 
      -- theme
      
-     use('sainnhe/gruvbox-material')
+     use({ 'rose-pine/neovim', as = 'rose-pine' })
+     
+     -- live-server
+
+     use('manzeloth/live-server')
+
+     -- debugger
+
+     use('mfussenegger/nvim-dap')
+     use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
+     use('nvim-telescope/telescope-dap.nvim')
+     use('theHamsta/nvim-dap-virtual-text')
 
 end)
