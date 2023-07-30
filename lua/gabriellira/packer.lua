@@ -51,6 +51,10 @@ return require('packer').startup(function(use)
         requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
 
+    use('psf/black')
+
+    use('lukas-reineke/indent-blankline.nvim')
+
     -- colors
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -97,5 +101,9 @@ return require('packer').startup(function(use)
      use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
      use('nvim-telescope/telescope-dap.nvim')
      use('theHamsta/nvim-dap-virtual-text')
+
+     -- ranger
+     
+     use('kevinhwang91/rnvimr')
 
 end)
