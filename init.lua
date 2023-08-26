@@ -1,13 +1,12 @@
 require("gabriellira")
 
--- Define the function to run the bash command
+-- Htmldjango save-format
 _G.run_bash_command = function(filename)
     local command = string.format("djlint %s --reformat", filename)
     os.execute(command)
     vim.cmd("edit!") -- Reload the buffer after running the bash command
 end
 
--- Define the autocmd to trigger the function when an HTML file is saved
 vim.cmd([[
 augroup FormatHTML
     autocmd!
@@ -15,6 +14,7 @@ augroup FormatHTML
 augroup END
 ]])
 
+-- python-black save-format
 vim.cmd([[
 augroup black_on_save
   autocmd!
